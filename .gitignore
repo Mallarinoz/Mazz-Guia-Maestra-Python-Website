@@ -1,0 +1,18 @@
+# --- Editores e IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Diseño y Recursos (Opcional) ---
+# Si guardas tus iconos originales (.ai, .psd, .fig) en la carpeta local,
+# descomenta las líneas de abajo para que no se suban a la web.
+# *.psd
+# *.ai
+
+# --- Logs ---
+*.log

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazz - Guía Maestra de Python</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --text: #ffffff;
+            --bg: #f4f7f6;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            background: var(--primary);
+            color: var(--text);
+            width: 100%;
+            padding: 2.5rem 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 { margin: 0; font-size: 2.8rem; letter-spacing: 1px; }
+        .subtitle { opacity: 0.9; margin-top: 0.8rem; font-size: 1.1rem; }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            padding: 4rem 2rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .lang-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            text-decoration: none;
+            color: var(--primary);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        .lang-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            border-color: var(--accent);
+        }
+        .flag { font-size: 3rem; display: block; margin-bottom: 1rem; }
+        .lang-name { display: block; font-size: 1.2rem; font-weight: bold; margin-bottom: 0.3rem; }
+        .native-name { font-size: 0.85rem; color: #7f8c8d; }
+
+        footer { margin-top: auto; padding: 2rem; color: #7f8c8d; font-size: 0.9rem; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MAZZ</h1>
+    <div class="subtitle">Guía Maestra de Python / Python Master Guide</div>
+</header>
+
+<main class="container">
+    <a href="./es/" class="lang-card">
+        <span class="flag">🇪🇸</span>
+        <span class="lang-name">Español</span>
+        <span class="native-name">Spanish</span>
+    </a>
+    <a href="./en/" class="lang-card">
+        <span class="flag">🇺🇸</span>
+        <span class="lang-name">English</span>
+        <span class="native-name">English</span>
+    </a>
+    <a href="./pt/" class="lang-card">
+        <span class="flag">🇧🇷</span>
+        <span class="lang-name">Português</span>
+        <span class="native-name">Portuguese</span>
+    </a>
+    <a href="./de/" class="lang-card">
+        <span class="flag">🇩🇪</span>
+        <span class="lang-name">Deutsch</span>
+        <span class="native-name">German</span>
+    </a>
+    <a href="./it/" class="lang-card">
+        <span class="flag">🇮🇹</span>
+        <span class="lang-name">Italiano</span>
+        <span class="native-name">Italian</span>
+    </a>
+    <a href="./fr/" class="lang-card">
+        <span class="flag">🇫🇷</span>
+        <span class="lang-name">Français</span>
+        <span class="native-name">French</span>
+    </a>
+    <a href="./ar/" class="lang-card">
+        <span class="flag">🇸🇦</span>
+        <span class="lang-name">العربية</span>
+        <span class="native-name">Arabic</span>
+    </a>
+    <a href="./hi/" class="lang-card">
+        <span class="flag">🇮🇳</span>
+        <span class="lang-name">हिन्दी</span>
+        <span class="native-name">Hindi</span>
+    </a>
+    <a href="./zh/" class="lang-card">
+        <span class="flag">🇨🇳</span>
+        <span class="lang-name">中文</span>
+        <span class="native-name">Chinese</span>
+    </a>
+    <a href="./ko/" class="lang-card">
+        <span class="flag">🇰🇷</span>
+        <span class="lang-name">한국어</span>
+        <span class="native-name">Korean</span>
+    </a>
+    <a href="./ja/" class="lang-card">
+        <span class="flag">🇯🇵</span>
+        <span class="lang-name">日本語</span>
+        <span class="native-name">Japanese</span>
+    </a>
+    <a href="./ru/" class="lang-card">
+        <span class="flag">🇷🇺</span>
+        <span class="lang-name">Русский</span>
+        <span class="native-name">Russian</span>
+    </a>
+</main>
+
+<footer>
+    © 2026 Mallarinoz - Mazz Guía Maestra de Python. All rights reserved.
+</footer>
+
+</body>
+</html>
